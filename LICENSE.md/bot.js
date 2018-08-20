@@ -55,4 +55,5 @@ client.on('guildMemberAdd', member => {
   canal.send({embed : embed})
 });
 
-client.login('NDc3OTc5MjMzNzgwNjI5NTA3.Dlt2gA.UHtJiIUTWff0f3sUervwVYEci7Y');
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
